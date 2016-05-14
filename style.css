@@ -1,0 +1,351 @@
+body{
+  font-family:  'Candal', sans-serif;
+}
+header{
+  background: #098C8E;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+.container{
+  max-width: 900px;
+margin: auto;
+}
+.headh1{
+  padding-top: 20px;
+  display: inline-block;
+}
+.headh1 span{
+  display: inline-block;
+  font-size: 20px;
+
+}
+.headh1 h1{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.head{
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+}
+.head p:hover{
+  color: #05F470;
+}
+.head p{
+  display: inline-block;
+  margin-left: 20px;
+}
+/*section1*/
+
+.sec1{
+  width: 100%;
+  height: 350px;
+  background: #013B49;
+}
+.imgface{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: auto;
+
+}
+.imgface img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.art1{
+  padding-top: 30px;
+}
+.art1 h2{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+.star{
+  margin-left: 38%;
+}
+.line{
+  width: 100px;
+  height: 3px;
+  background: white;
+  display: inline-block;
+}
+.sec1 h1{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+.star span{
+  margin-top: 3px;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+}
+/*portfolio*/
+.port{
+  width: 100%;
+  height: 500px;
+  background: #d8d8d8;
+}
+.title2{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+}
+.line2{
+  width: 100px;
+  height: 3px;
+  background: black;
+  display: inline-block;
+}
+.star2{
+  text-align: center;
+  padding: 15px 0;
+}
+.star2 span{
+  margin-top: 3px;
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+}
+.imgart{
+  text-align: center;
+}
+.img1{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  padding: 15px;
+}
+.img1 img{
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+}
+/*about*/
+.secabout{
+  width: 100%;
+  height: 370px;
+  background: #569EAE;
+}
+.about{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 15px;
+}
+.text3{
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: left;
+  color: white;
+}
+.center{
+  margin-top: 20px;
+  text-align: center;
+}
+/*contact*/
+.contact{
+  width: 100%;
+  height: 400px;
+}
+.conth1{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+}
+.form1 input{
+  width: 50%;
+  margin-top: 10px;
+  border: 0;
+  border-top: 1px solid gray;
+  font-size:20px;
+  display: block;
+}
+.form1 button{
+background: #3FCF95;
+  width: 70px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  border: 0;
+  margin-top: 30px;
+}
+.form1 .messanger{
+  height: 80px;
+  border-bottom: 1px solid gray;
+}
+/*footer*/
+.divfot{
+  width: 100%;
+  height: 150px;
+  background: #0BB9BC;
+  color: white;
+}
+footer{
+  width: 100%;
+  height: 30px;
+  background: #098C8E;
+}
+footer p{
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 5px;
+}
+.izq{
+  display: inline-block;
+  text-align: left;
+  padding-top: 30px;
+}
+.izq h1{
+  margin-bottom: 30px;
+}
+
+.der{
+padding-top: 30px;
+  display: inline-block;
+  margin-left: 60px;
+}
+.iconos{
+  margin-top: 30px;
+}
+.iconos ul li{
+  display: inline-block;
+}
+.iconos ul li:hover{
+  color: #e91e63;
+}
+.circulo {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: relative;
+  border: 2px solid white;
+}
+.circulo span{
+  position: absolute;
+
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+/*mediaquerie*/
+@media screen and (max-width: 600px){
+  .headh1{
+    width: 100%;
+    text-align: center;
+  }
+  .headh1 h1{
+    font-size: 20px;
+  }
+  .head{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+  }
+  header{
+    height: 90px;
+  }
+  .art1 h1{
+    font-size: 20px;
+  }
+  .line{
+    width: 40px;
+    height: 2px;
+  }
+  .star span{
+    font-size: 15px;
+  }
+  .art1 h2{
+    font-size: 15px;
+  }
+.sec1{
+  height: 300px;
+}
+.title2{
+  font-size: 20px;
+}
+.line2{
+  width: 40px;
+  height: 2px;
+}
+.star2 span{
+  font-size: 15px;
+}
+.img1{
+  width: 100%;
+  height: 80px;
+  padding: 0;
+}
+.img1 img{
+  width: 80px;
+  height: 80px;
+}
+.port{
+  height: 600px;
+}
+.secabout h1{
+  font-size: 20px;
+}
+.text3{
+  width: 70%;
+  height: 200px;
+  text-align: center;
+}
+.text3 p{
+  text-align: left;
+  font-size: 12px;
+}
+.text4{
+  display: none;
+}
+.conth1{
+  font-size: 20px;
+}
+.form1 input{
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 10px;
+}
+.form1 button{
+  margin-left: 5px;
+}
+.izq{
+  width: 100%;
+  height: 50px;
+  text-align:center;
+  padding-top: 5px;
+}
+.divfot{
+  height: 200px;
+}
+.izq h1{
+  padding-bottom: 5px;
+}
+.izq p{
+  font-size: 12px;
+}
+.der h1{
+  font-size: 12px;
+  text-align: center;
+}
+.der{
+  width: 100%;
+  margin-left: 0;
+}
+.iconos{
+  text-align: center;
+}
+.circulo span{
+  margin-left: -5px;
+}
+}
