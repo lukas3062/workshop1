@@ -89,7 +89,7 @@ margin: auto;
 /*portfolio*/
 .port{
   width: 100%;
-  height: 500px;
+  height: 680px;
   background: #d8d8d8;
 }
 .title2{
@@ -117,14 +117,15 @@ margin: auto;
   text-align: center;
 }
 .img1{
-  width: 150px;
-  height: 150px;
+  width: 280px;
+  height: 250px;
   display: inline-block;
-  padding: 15px;
+  padding: 5px;
+
 }
 .img1 img{
-  width: 150px;
-  height: 150px;
+  width: 280px;
+  height: 250px;
   border-radius: 3px;
 }
 /*about*/
@@ -140,7 +141,7 @@ margin: auto;
   padding-top: 15px;
 }
 .text3{
-  width: 30%;
+  width: 40%;
   height: 200px;
   display: inline-block;
   font-size: 15px;
@@ -162,7 +163,7 @@ margin: auto;
   padding-top: 15px;
 }
 .form1 input{
-  width: 50%;
+  width: 60%;
   margin-top: 10px;
   border: 0;
   border-top: 1px solid gray;
@@ -282,15 +283,16 @@ padding-top: 30px;
 }
 .img1{
   width: 100%;
-  height: 80px;
+  height: 100px;
   padding: 0;
+  margin-right: 0;
 }
 .img1 img{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 .port{
-  height: 600px;
+  height: 700px;
 }
 .secabout h1{
   font-size: 20px;
