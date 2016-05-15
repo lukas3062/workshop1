@@ -8,7 +8,8 @@ header{
   color: white;
 }
 .container{
-  max-width: 900px;
+  max-width: 70%;
+  height: 100%;
 margin: auto;
 }
 .headh1{
@@ -30,6 +31,9 @@ margin: auto;
   float: right;
   padding-top: 20px;
 }
+.head a{
+  color: white;
+}
 .head p:hover{
   color: #05F470;
 }
@@ -37,7 +41,7 @@ margin: auto;
   display: inline-block;
   margin-left: 20px;
 }
-/*section1*/
+/*face*/
 
 .sec1{
   width: 100%;
@@ -66,7 +70,8 @@ margin: auto;
   padding-top: 20px;
 }
 .star{
-  margin-left: 38%;
+  width: 100%;
+  text-align: center;
 }
 .line{
   width: 100px;
@@ -89,7 +94,7 @@ margin: auto;
 /*portfolio*/
 .port{
   width: 100%;
-  height: 680px;
+  height: 630px;
   background: #d8d8d8;
 }
 .title2{
@@ -114,19 +119,30 @@ margin: auto;
   color: black;
 }
 .imgart{
-  text-align: center;
+}
+.color1{
+  width: 100%;
+  height: 200px;
+  background: #6A0888;
+  border-radius: 3px;
 }
 .img1{
-  width: 280px;
-  height: 250px;
+  width: 31%;
+  height: 200px;
   display: inline-block;
-  padding: 5px;
-
+padding: 5px;
+text-align: center;
+transition: 1.3s ease-in-out;
+}
+.img1:hover{
+  transform: rotate(45deg);
 }
 .img1 img{
-  width: 280px;
-  height: 250px;
-  border-radius: 3px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 12%;
+
 }
 /*about*/
 .secabout{
@@ -224,6 +240,9 @@ padding-top: 30px;
 .iconos ul li:hover{
   color: #e91e63;
 }
+.circulo:hover{
+  border: 2px solid #e91e63;
+}
 .circulo {
   width: 30px;
   height: 30px;
@@ -283,16 +302,27 @@ padding-top: 30px;
 }
 .img1{
   width: 100%;
-  height: 100px;
+  height: 12%;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+.color1{
+  width: 100%;
+  height: 12%;
   padding: 0;
   margin-right: 0;
 }
 .img1 img{
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
+  margin-top: 1%;
+}
+.img1:hover{
+  transform: rotate(0deg);
 }
 .port{
-  height: 700px;
+  max-height: 700px;
 }
 .secabout h1{
   font-size: 20px;
